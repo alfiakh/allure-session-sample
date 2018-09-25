@@ -1,0 +1,1 @@
+allure-session-sample
