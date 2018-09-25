@@ -1,5 +1,5 @@
-Feature('test');
+Feature('Feature without session');
 
-Scenario('open google', (I) => {
+Scenario('Scenario without session', (I) => {
   I.amOnPage('http://google.com');
 })
