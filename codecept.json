@@ -1,0 +1,19 @@
+{
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "url": "http://localhost"
+    }
+  },
+  "include": {},
+  "bootstrap": false,
+  "mocha": {},
+  "name": "allure-session-sample",
+  "plugins": {
+    "allure": {
+      "enabled": true
+    }
+  }
+}
